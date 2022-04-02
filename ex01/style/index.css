@@ -1,0 +1,26 @@
+body {
+    margin-left: 7%;
+}
+h2 {
+    color:crimson;
+    text-align: center;
+    padding-right: 100px;
+}
+.gallery {
+    margin: 8px;
+    width: 30%;
+    float: left;
+    padding-top: 30px;
+}
+.gallery img {
+    width: 340px;
+    height: 240px;
+}
+.gallery p {
+    color:lightblue;
+}
+.words {
+    margin: 4px;
+    text-align: justify;
+    width: 85%;
+}
