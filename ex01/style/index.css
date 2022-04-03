@@ -1,7 +1,7 @@
 body {
     margin-left: 7%;
 }
-h2 {
+h1 {
     color:crimson;
     text-align: center;
     padding-right: 100px;
@@ -11,6 +11,7 @@ h2 {
     width: 30%;
     float: left;
     padding-top: 30px;
+    padding-bottom: 20px;
 }
 .gallery img {
     width: 340px;
@@ -24,3 +25,68 @@ h2 {
     text-align: justify;
     width: 85%;
 }
+#myImage {
+    border-radius: 5px;
+    cursor: pointer;
+  }
+#myImage1 {
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #myImage2 {
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #myImage3 {
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #myImage4 {
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #myImage5 {
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #myImage6 {
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #myImage7 {
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #myImage8 {
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+  }
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 800px;
+    max-height: 600px;
+  }
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
